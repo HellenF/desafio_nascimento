@@ -13,9 +13,9 @@ string relationship;
 if (result < 0)
    relationship = "0";
 else if (result == 0)
-   relationship = "is the same time as";
+   relationship = "test";
 else
-   relationship = "is later than";
+   relationship = "testando";
 
 Console.WriteLine("{0} {1} {2}", date1, relationship, date2);
 
